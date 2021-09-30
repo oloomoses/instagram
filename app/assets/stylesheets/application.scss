@@ -65,6 +65,7 @@ body {
   background-position: 0 0;
   height: 51px;
   width: 175px;
+  margin: 22px auto 8px;
 }
 
 .landing-left {
@@ -88,5 +89,34 @@ body {
       position: absolute;
     }
   }
+}
 
+.landing-right {
+  .form-login {
+    width: 350px;
+
+    form {
+      padding: 0 40px;
+
+      .btn-primary {
+        width: 100%;
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      input {
+        border: 1px solid #efefef;
+      }
+
+      .form-check-label {
+        padding: 0;
+        font-size: 15px;
+        color: #262626;
+      }
+    }
+  }
+
+  .redirect-links {
+  }
 }
